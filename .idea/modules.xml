@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/InSoft.iml" filepath="$PROJECT_DIR$/.idea/InSoft.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gallery-parent/gallery-api/gallery-api.iml" filepath="$PROJECT_DIR$/gallery-parent/gallery-api/gallery-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gallery-parent/gallery-bl/gallery-bl.iml" filepath="$PROJECT_DIR$/gallery-parent/gallery-bl/gallery-bl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gallery-parent/gallery-model/gallery-model.iml" filepath="$PROJECT_DIR$/gallery-parent/gallery-model/gallery-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gallery-parent/gallery-parent.iml" filepath="$PROJECT_DIR$/gallery-parent/gallery-parent.iml" />
+    </modules>
+  </component>
+</project>

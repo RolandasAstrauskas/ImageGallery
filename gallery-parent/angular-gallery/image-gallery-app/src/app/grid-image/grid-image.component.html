@@ -1,0 +1,40 @@
+
+
+
+  <mat-grid-list [cols]="columnNum"  rowHeight="2:1" gutterSize="5px" (window:resize)="onResize($event)">
+    <mat-grid-tile  *ngFor="let modelPhoto of modelPhotos">
+      <img src='data:image/jpeg;base64,{{ modelPhoto.image }}' alt="image">
+      <mat-grid-tile-footer>{{modelPhoto.photoName}}</mat-grid-tile-footer>
+      <div id="btn" >
+        <button type="button" class="btn btn-primary btn-sm" (click)="myFunction(modelPhoto.id)">
+          <span class="glyphicon glyphicon-edit"></span>
+        </button>
+        <button type="button" class="btn btn-primary btn-sm" (click)="delById(modelPhoto.id)">
+          <span class="glyphicon glyphicon-trash"></span>
+        </button>
+      </div>
+    </mat-grid-tile>
+  </mat-grid-list>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

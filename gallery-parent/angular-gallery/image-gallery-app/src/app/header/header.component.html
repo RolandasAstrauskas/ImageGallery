@@ -1,0 +1,38 @@
+
+<nav class="navbar navbar-inverse">
+
+  <div class="container" >
+    <form class="navbar-form navbar-left" (ngSubmit)="onSubmit()">
+      <div class="your-class">
+        <label for="file">
+          <img src="assets/icon.png" width="35px" />
+        </label>
+          <input type="file" name="image" (change)="onFileSelected($event)" id="file">
+        <input id="textauthor" class="form-control" [(ngModel)]="photoName" name="photoName" placeholder="Name" (input)="onClickUpdate($event)">
+        <button onclick="document.getElementById('textauthor').value = ''" (click)="getEventHandler()" class="btn btn-primary" type="submit" name="upload">Save</button>
+      </div>
+    </form>
+    <div class="navbar-header">
+      <a class="navbar-brand">Photo Gallery</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="navbar-form navbar-right">
+        <form  role="search">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search" name="search">
+            <div class="input-group-btn">
+              <button class="btn btn-primary" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+            </div>
+          </div>
+        </form>
+    </div>
+  </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
